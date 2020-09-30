@@ -1,3 +1,4 @@
+ 
 # allow system_app to interact with pasr hal
 hal_client_domain(system_app, hal_pasrmanager)
 
@@ -12,3 +13,6 @@ allow system_app sysfs_aod:file rw_file_perms;
 
 # Allow system_app to read, open and get attributes of sysfs_graphics
 allow system_app sysfs_graphics:file { getattr open read };
+
+typeattribute system_app hal_fingerprint_client;
+allow system_app hal_fingerprint_hwservice:hwservice_manager find;
