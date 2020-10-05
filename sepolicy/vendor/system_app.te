@@ -16,3 +16,6 @@ allow system_app sysfs_graphics:file { getattr open read };
 
 typeattribute system_app hal_fingerprint_client;
 allow system_app hal_fingerprint_hwservice:hwservice_manager find;
+
+# allow system_app to find hal_cameraHIDL_hwservice
+allow system_app hal_cameraHIDL_hwservice:hwservice_manager find;
