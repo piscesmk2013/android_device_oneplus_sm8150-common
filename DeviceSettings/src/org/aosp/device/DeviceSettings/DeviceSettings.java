@@ -53,10 +53,14 @@ public class DeviceSettings extends PreferenceFragment
 
 
     private static final String KEY_CATEGORY_GRAPHICS = "graphics";
+    public static final String KEY_SRGB_SWITCH = "srgb";
     public static final String KEY_HBM_SWITCH = "hbm";
     public static final String KEY_AUTO_HBM_SWITCH = "auto_hbm";
     public static final String KEY_AUTO_HBM_THRESHOLD = "auto_hbm_threshold";
     public static final String KEY_DC_SWITCH = "dc";
+    public static final String KEY_DCI_SWITCH = "dci";
+    public static final String KEY_NIGHT_SWITCH = "night";
+    public static final String KEY_WIDECOLOR_SWITCH = "widecolor";
     public static final String KEY_REFRESH_RATE = "refresh_rate";
     public static final String KEY_AUTO_REFRESH_RATE = "auto_refresh_rate";
     public static final String KEY_FPS_INFO = "fps_info";
